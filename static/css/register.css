@@ -1,0 +1,312 @@
+/* 
+by:林春;
+timer: 2019-06-15 8:52;
+暴风影音-登录页面
+*/
+
+/* -----logo部位----- */
+.main{
+    width: 100%;
+    min-width: 1000px;
+}
+.logo{
+    background: #f9f9f9;
+}
+.logo .logo_main{
+    width: 1000px;
+    height: 64px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+.logo .logo_main .logo_ico{
+    width: 169px;
+    height: 39px;
+    background: url(../images/login-pic.png) no-repeat 0 -305px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+/* -----主体登录部位----- */
+.middle{
+    height: 542px;
+    background-color: #46a4e9;
+}
+.middle .middle_mian{
+    width: 1000px;
+    height: 542px;
+    margin: 0 auto;
+    background: url(../images/log-reg-bg.jpg) no-repeat;
+}
+.middle_mian .middle_pic{
+    width: 587px;
+    height: 475px;
+    padding-top: 67px;
+    float: left;
+}
+
+.middle_mian .reg{
+    width: 284px;
+    height: 406px;
+    background: #fff;
+    float: right;
+    margin-top: 53px;
+    margin-right: 40px;
+    padding: 20px 24px;
+    /* display: none; */
+}
+.reg .reg_title{
+    width: 90px;
+    height: 21px;
+    background: url(../images/login-pic.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+/* 表单部位 */
+.reg .tishi{
+    height: 27px;
+    line-height: 27px;
+    color: #fc4040;
+}
+.tel input,.yanzhengma input,.duanxin input{
+    padding: 0;
+    border: none;
+    line-height: 30px;
+    outline: none;
+    color: #333;
+}
+.tel{
+    width: 282px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+.ico{
+    width: 30px;
+    height: 30px;
+    background: url(../images/login-pic.png);
+    text-indent: -9999px;
+    overflow: hidden;
+    float: left;
+}
+.tel div.ico{
+    background-position: 0 -30px;
+}
+.tel input{
+    width: 200px;
+    height: 30px;
+    
+}
+.password p.ico{
+    background-position: -30px -30px; 
+}
+.password span{
+    width: 24px;
+    height: 24px;
+    margin: 3px 3px 0 0 ;
+    float: right;
+    background: url(../images/login-pic.png);
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.password span.strong{
+    background-position: -40px -70px;
+}
+.password span.strong1{
+    background-position: -70px -70px;
+}
+.password span.strong2{
+    background-position: -100px -70px;
+}
+.password span.strong3{
+    background-position: -130px -70px;
+}
+.yanzhengma{
+    height: 32px;
+    margin-bottom: 10px; 
+}
+.validate{
+    width: 140px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    float: left;
+}
+span.ico{
+    background-position: -60px -30px;
+}
+.validate input{
+    width: 105px;
+}
+.picture{
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    margin: 0 8px 0 10px;
+    float: left;
+    font-size: 20px;
+    position: relative;
+}
+.picture span.mark{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 90px;
+    height: 30px;
+}
+.refurbish{
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/login-pic.png) no-repeat -120px -30px;
+}
+.refurbish:hover{
+    background: url(../images/login-pic.png) no-repeat -150px -30px;
+}
+.duanxin{
+    height: 32px;
+    margin-bottom: 10px;
+}
+.obtain{
+    width: 132px;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    text-align: center;
+    border: 1px solid #dddddd;
+    float: right;
+    font-size: 14px;
+    cursor: pointer;
+}
+.argee i{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(../images/login-pic.png) no-repeat ;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.argee i.check2{
+    background-position: -20px -66px;
+}
+.argee i.check1{
+    background-position: 0px -66px;
+}
+.argee input{
+    display: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.argee .reg-login{
+    float: right;
+    cursor: pointer;
+    color: #1a9eff;
+}
+.argee a{
+    color: #1a9eff;
+}
+.btn input{
+    width: 284px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    background: #1a9eff;
+    cursor: pointer;
+    letter-spacing: 1rem;
+}
+.btn input:hover{
+    background-color: #69bfff;
+}
+
+.problem{
+    height: 15px;
+    line-height: 15px;
+}
+.problem a{
+    color: #999;
+}
+.problem .pro_ico{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/login-pic.png) no-repeat -165px -74px;
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+.other{
+    margin-top: 33px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #999;
+    position: relative;
+}
+.other .line{
+    width: 78px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 6px;
+}
+.other .line1{
+    left: 23px;
+    
+}
+.other .line2{
+    right: 23px;
+    
+}
+.way{
+    height: 51px;
+    padding-top: 14px;
+    text-align: center;
+}
+.way a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/login-pic.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.way .qq{
+    background-position: 0 -350px;
+}
+.way .wb{
+    background-position: -30px -350px;
+    margin: 0 20px;
+}
+.way .wx{
+    background-position: -60px -350px;
+}
+
+/* -----底部部位 */
+.footer{
+    background-color: #f9f9f9;
+}
+.footer .footer_main{
+    width: 1000px;
+    height: 86px;
+    margin: 0 auto; 
+    padding-top: 26px;
+}
+.footer .footer_main p{
+    text-align: center;
+    line-height: 24px;
+    color: #999;
+}

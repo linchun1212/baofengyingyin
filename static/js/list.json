@@ -1,0 +1,72 @@
+[
+    {
+        "ranking":"1",
+        "name":"庆祝改革开放40周年",
+        "url":"static/images/list1.jpg",
+        "pingfen":"9.0"
+        
+    },
+    {
+        "ranking":"2",
+        "name":"小悟空",
+        "url":"static/images/list2.jpg",
+        "pingfen":"2.2"
+        
+    },
+    {
+        "ranking":"3",
+        "name":"金战",
+        "url":"static/images/list3.jpg",
+        "pingfen":"8.4"
+        
+    },
+    {
+        "ranking":"4",
+        "name":"楚乔传",
+        "url":"static/images/list4.jpg",
+        "pingfen":"5.0"
+        
+    },
+    {
+        "ranking":"5",
+        "name":"生死线",
+        "url":"static/images/list5.jpg",
+        "pingfen":"9.5"
+        
+    },
+    {
+        "ranking":"6",
+        "name":"庆祝改革开放40周年",
+        "url":"static/images/list1.jpg",
+        "pingfen":"9.0"
+        
+    },
+    {
+        "ranking":"7",
+        "name":"小悟空",
+        "url":"static/images/list2.jpg",
+        "pingfen":"2.2"
+        
+    },
+    {
+        "ranking":"8",
+        "name":"金战",
+        "url":"static/images/list3.jpg",
+        "pingfen":"8.4"
+        
+    },
+    {
+        "ranking":"9",
+        "name":"楚乔传",
+        "url":"static/images/list4.jpg",
+        "pingfen":"5.0"
+        
+    },
+    {
+        "ranking":"10",
+        "name":"生死线",
+        "url":"static/images/list5.jpg",
+        "pingfen":"9.5"
+        
+    }
+]

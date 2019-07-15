@@ -1,0 +1,1134 @@
+/* -----头部导航部位----- */
+.big{
+    width: 100%;
+    min-width: 1380px;
+}
+.main{
+    width: 1380px;
+    margin: 0 auto;
+}
+.header{
+    height: 55px;
+    border-top: 1px solid #383a42;
+    background: #242428;
+}
+.header .header_main{   
+    height: 55px;  
+    color: #989898;
+}
+.header_main .logo{
+    width: 120px;
+    height: 41px;
+    padding-top: 14px;
+    float: left;
+}
+.header_main .logo .log_main{
+    width: 120px;
+    height: 41px;
+    background: url(../images/playicons.png) no-repeat -181px -124px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.header_main .nva{
+    width: 160px;
+    height: 14px;
+    padding-top: 22px;
+    padding-bottom: 19px;
+    font-size:12px;
+    line-height: 14px;
+    float: left;
+    display: flex;
+}
+
+.header_main .nva .index{
+    margin: 0 43px 0 37px;
+    color: #989898;
+}
+.header_main .nva .index:hover{
+    color: #1a9eff
+}
+.header_main .nva .nva_main{
+    cursor: pointer;
+}
+/* .header_main .nva .nva_main:hover .hide_nva{
+    display: block;
+}  */
+.header_main .nva .nva_main span{
+    float: right;
+    width: 14px;
+    height: 14px;
+    background: url(../images/indexicons.png) no-repeat -386px -562px;
+    margin-left: 11px;
+}
+.header_main .nva .nva_main:hover{
+    color: #0b68c8;
+}
+.header_main .nva .nva_main:hover .more{
+    background-position: -386px -590px;
+}
+/* 中间搜索部分 */
+.search{
+    width: 562px;
+    padding-top: 14px;
+    float: left;
+    margin-left: 96px;
+    font-size: 12px;
+    
+}
+.search .search_left{
+    width: 475px;
+    height: 30px;
+    line-height:  30px;
+    text-indent: 20px;
+    background: #383a42;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+    border: none;
+    padding: 0;
+    color: #989898;
+    float: left;
+}
+.search .search_right{
+    float: right;
+    width: 87px;
+    height: 30px;
+    background: url(../images/playicons.png) no-repeat -115px -40px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+/* 右边导航 */
+.header_right{
+    float: right;
+    margin-top: 10px;
+    height: 45px;
+    position: relative;
+}
+.header_right a{
+    display: inline-block;
+    margin: 0 12px 0;
+    color: #989898;
+    height: 14px;
+    padding-top: 24px;
+    line-height: 14px;
+    
+}
+
+.header_right a:hover{
+    color: #989898;
+}
+.header_right a.looked{
+    background: url(../images/playicons.png) no-repeat -114px 0;
+}
+.header_right a.shoucang{
+    margin-left: 22px;
+    background: url(../images/playicons.png) no-repeat -170px 0;
+}
+.header_right a.app{
+    background: url(../images/playicons.png) no-repeat -220px 0;
+}
+.header_right a.deng{
+    background: url(../images/playicons.png) no-repeat -265px 0;
+}
+/* 左边导航划过出现的部位 */
+.hide_nva{
+    height: 84px;
+    background: #000;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    display: none;
+    z-index: 999;
+}
+.hide_nva .hide_main{
+    height: 46px;
+    padding: 20px 0 18px 0;
+}
+.hide_nva .hide_main li{
+    height: 45px;
+    border-right: 1px solid #c5c5c5;
+    float: left;   
+}
+.hide_nva .hide_main li.one{
+    padding: 1px 2px 0 19px;
+    width: 460px;
+}
+.hide_nva .hide_main li .p_first{
+    margin-bottom: 9px;
+}
+.hide_nva .hide_main li a{
+    color: white; 
+    line-height: 18px;
+    margin:  0 32px;
+}
+.hide_nva .hide_main li a:hover{
+    color: #1a9eff;
+}
+.hide_nva .hide_main li.two{
+    padding: 1px 0 0 37px ;
+    width: 187px;
+}
+.hide_nva .hide_main li.two a{
+    margin-right: 51px;
+    margin-left: 0;
+}
+.hide_nva .hide_main li.two .ten{
+    color: #ff4200;
+}
+.hide_nva .hide_main li.two .p_second{
+    text-align: center;
+}
+.hide_nva .hide_main li.third{
+    width: 322px;
+}
+.hide_nva .hide_main li.third a{
+    display: inline-block;
+    line-height: 16px;
+    width: 28px;
+    height: 46px;
+    margin-left: 28px;
+    padding-top: 30px;
+    margin-right: 0;
+    text-align: center;
+}
+.hide_nva .hide_main li.third a.shoop{
+    background: url(../images/indexicons01.png) no-repeat
+    -240px -160px;
+}
+.hide_nva .hide_main li.third a.xiu{
+    background: url(../images/indexicons01.png) no-repeat
+    -272px -160px;
+}
+.hide_nva .hide_main li.third a.jing{
+    background: url(../images/indexicons01.png) no-repeat
+    -305px -160px;
+}
+.hide_nva .hide_main li.third a.licai{
+    background: url(../images/indexicons01.png) no-repeat
+    -338px -160px;
+}
+.hide_nva .hide_main li.third a.huiyuan{
+    background: url(../images/indexicons01.png) no-repeat
+    -372px -160px;
+}
+.hide_nva .hide_main li.four .down{
+    height: 28px;
+    margin-bottom: 3px;
+}
+.hide_nva .hide_main li.four span{
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    color: white;
+    
+    cursor: pointer;
+    background: url(../images/download.png) no-repeat;
+}
+.hide_nva .hide_main li.four{
+    border: none;
+}
+.hide_nva .hide_main li.four span.zaixian{
+    margin:  0 24px 0 32px;
+    text-indent: 15px;
+}
+.hide_nva .hide_main li.four span.shandian{
+    text-indent: 30px;
+    /* margin-left: 0; */
+}
+.hide_nva .hide_main li.four p{
+    line-height: 14px;
+    color: white;
+    text-align: right;
+}
+/* 右边导航看过的下拉内容 */
+.header_right .xiala{
+    width: 252px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.header_right .look{
+    display: none;
+    z-index: 999;
+}
+.header_right .shou{
+    display: none;
+    z-index: 999;
+}
+
+.header_right  .jiao{
+    width: 0px;
+    border-bottom: 8px solid #fff;
+    border-top: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute; 
+    top: -14px;
+    /* margin-top: -14px; */
+}
+.header_right .look .look_jiao{
+    left: 15px; 
+    /* margin-left: 15px; */
+}
+.header_right .xiala .cang{
+    left: 80px;
+}
+.header_right .xiala .look1{
+    height: 38px;
+    padding: 0 23px 0 15px;
+    border-bottom: 1px solid #cfcfcf;
+    line-height: 38px;
+}
+.header_right .look .look1 span{
+    display: inline-block;
+    color: #191919;
+}
+.header_right .look .look1 span.jilu{
+    float: right;
+    color: #989898;
+    cursor: pointer;
+}
+.header_right .shou p{
+    width: 155px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 181px auto 0;
+    background-color: #1a9eff;
+    cursor: pointer;
+}
+/* 客户端下拉内容 */
+.header_right .kehu{
+    width: 154px;
+    height: 86px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    display: none;
+    background-color: #fff;
+    z-index: 999;
+}
+.header_right .kehu .app_pc{
+    top: -15px;
+    left: 50px;
+}
+.header_right .kehu a{
+    margin: 0;
+    padding: 0;
+}
+.header_right .kehu span{
+    margin: 20px 19px 0;
+    display: inline-block;
+    padding-top: 33px;
+    width: 36px;
+    line-height: 12px;
+}
+.header_right .kehu span:hover{
+    color: #191919;
+}
+.header_right .kehu .pc{
+    background: url(../images/pc.png) no-repeat 0 0 ;
+}
+.header_right .kehu .iphone{
+    background: url(../images/iphone.png) no-repeat 0 0 ;
+}
+
+/* -----中间播放部分----- */
+.play{
+    background-color: #383a42;
+    height: 756px;
+}
+.play .play_main{
+    height: 756px;
+}
+.play_main .play01{
+    text-align: left;
+    height: 56px;
+    padding-top: 10px;
+}
+.play_main .play01 a:hover{
+    color: #1a9eff
+}
+.play_main .play01 .title{
+    width: 100px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+}
+.play_main .play01 p{
+    color: #989898;
+}
+.play_main .play01 p a{
+    display: inline-block;
+    line-height: 30px;
+    color: #989898;
+}
+.play_main .play_left{
+    width: 1060px;
+    height: 679px;
+    float: left;
+}
+.play_main .play_left .video{
+    width: 1060px;
+    height: 634px;
+    background: skyblue;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.play_main .play_left .video_footer{
+    width: 1031px;
+    height: 15px;
+    background-color: #242428;
+    padding: 15px  0 15px 29px;
+}
+.video_footer .video_left{
+    height: 15px;
+    float: left;
+}
+.video_footer .video_left p{
+    float: left;
+    width: 74px;
+    text-indent: 26px;
+    color: #989898;
+    cursor: pointer;
+}
+.video_footer .video_left p:hover{
+    color: #1a9eff;
+}
+.video_footer .video_left .zan{
+    background: url(../images/playicons.png) no-repeat 0 0 ;
+}
+.video_footer .video_left .zan:hover{
+    background: url(../images/playicons.png) no-repeat 0 -272px ;
+}
+.video_footer .video_left .none_zan{
+    background: url(../images/playicons.png) no-repeat 0 -36px ;
+}
+.video_footer .video_left .none_zan:hover{
+    background: url(../images/playicons.png) no-repeat 0 -308px ;
+}
+.video_footer .video_left .collect{
+    background: url(../images/playicons.png) no-repeat 0 -72px ;
+}
+.video_footer .video_left .collect:hover{
+    background: url(../images/playicons.png) no-repeat 0 -344px ;
+}
+.video_footer .video_right{
+    height: 14px;
+    float: right;
+    padding-top: 1px;
+}
+.video_footer .video_right p{
+    width: 72px;
+    float: left;
+    color: #989898;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 17px 0 0px;
+    text-indent: 40px;
+    cursor: pointer;
+}
+.video_footer .video_right .p_01{
+    background: url(../images/playicons.png) no-repeat 0 -159px;
+}
+.video_footer .video_right .p_01:hover{
+    background: url(../images/playicons.png) no-repeat 0 -431px;
+}
+.video_footer .video_right .p_02{
+    background: url(../images/playicons.png) no-repeat 0 -234px;
+}
+.video_footer .video_right .p_02:hover{
+    background: url(../images/playicons.png) no-repeat 0 -506px;
+}
+.video_footer .video_right .p_03{
+    background: url(../images/playicons.png) no-repeat 0 -202px;
+}
+.video_footer .video_right .p_03:hover{
+    background: url(../images/playicons.png) no-repeat 0 -474px;
+}
+.video_footer .video_right p:hover{
+    color: #1a9eff;
+}
+.play_main .play_right{
+    width: 320px;
+    height: 680px;
+    float: right;
+}
+.play_main .play_right .film{
+    height: 634px;
+    width: 320px;
+    background-color: #242428;
+    position: relative;
+}
+.play_main .play_right .film .film_title{
+    width: 320px;
+    height: 50px;
+    display: flex;
+}
+.play_right .film .film_title span{
+    display:block;
+    height: 49px;
+    width: 160px;
+    line-height: 49px;
+    text-align: center;
+    border-bottom: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.play_right .film .film_title span.active{
+    color: #1a9eff;
+    border-color: #1a9eff;
+}
+
+.film .film_bottom{
+    width: 320px;
+    position: relative;
+    overflow: hidden;
+}
+.film .film_bottom .filmAll{
+    width: 280px;
+    padding: 0 12px;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+}
+.film .film_bottom ul{
+    width: 280px;
+}
+
+.film .film_bottom  b{
+    font-weight: normal;
+    text-indent: 13px;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    display: block;
+    color: #989898;
+    border-bottom: 1px solid #383a42;
+    background: url(../images/indexicons.png) -396px -196px  no-repeat;
+}
+.film .film_bottom ul li{
+    width: 277px;
+    height: 16px;
+    line-height: 16px;
+    border-bottom: 1px solid #383a42;
+    cursor: pointer;
+    padding: 16px 3px 16px 0;
+}
+.film .film_bottom ul li a{
+    display: block;
+    float: left;
+    color: #989898;
+}
+.film .film_bottom ul li span{
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/playicons.png) no-repeat -284px -80px;
+}
+
+.film_bottom ul li:hover a{
+    color: #1a9eff;
+}
+.film_bottom ul li:hover span{
+    background: url(../images/playicons.png) no-repeat -204px -80px;
+}
+
+.play_right .scroll{
+    height: 584px;
+    width: 10px;
+    float: right;
+    padding: 0 3px;
+    background: #2b2c31;
+    position: relative;
+}
+.play_right .scroll .scroll_small{
+    width: 10px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #3d4047;
+    cursor: pointer;
+    position: absolute;
+    left: 3px;
+}
+
+.play_right .download{
+    display: block;
+    height: 45px;
+    width: 320px;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    background-color: #398ee6;
+    font-size: 18px;
+}
+.play_right .download:hover{
+    background-color: #1979c6;
+}
+
+/* -----猜你喜欢以及推荐部分----- */
+.max_big{
+    height: 1496px;
+    background-color: #fff;
+}
+.max_big .max_main{
+    height: 1496px;
+}
+.max_big .max_main .max_left{
+    width: 980px;
+    height: 1496px;
+    float: left;
+}
+.max_big .max_main .max_left .ad{
+    width: 980px;
+    height: 124px;
+    text-align: center;
+    padding-top: 32px;
+    background-color: #fff;
+}
+.max_big .max_main .max_left .ad img{
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* 猜你喜欢 */
+.max_main .guess{
+    width: 980px;
+    height: 677px;
+    /* background: #ff4200;     */
+}
+.max_main .title{
+    height: 26px;
+    width: 140px;
+    padding: 18px 0;
+}
+.max_main .title h3{
+    font-size: 26px;
+    text-indent: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #191919;
+    background: url(../images/indexicons.png) no-repeat -396px -207px;
+}
+/* 喜欢的电影部分 */
+.max_left .guess .movie{
+    width: 980px;
+    height: 616px;
+    overflow: hidden;
+} 
+.max_left .guess .movie .love_ul{
+    width: 1000px;
+    height: 616px;
+}
+.guess .movie .love_ul li{
+    width: 180px;
+    height: 308px;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+.guess .movie .love_ul li img{
+    width: 180px;
+    height: 240px;
+    display: block;
+    cursor: pointer;
+}
+.guess .movie .love_ul li .movie_main{
+    position: relative;
+    height: 55px;
+    padding-top: 13px;
+}
+.movie_main .movie_top{
+    width: 180px;
+    height: 12px;
+}
+.movie_main .movie_top a{
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    color: #191919;
+    float: left;
+}
+
+.movie_main .movie_top a:hover{
+    color: #1979c6;
+}
+.movie_main .movie_top span{
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    color: #fc4413;
+    float: right;
+}
+.movie_main  .movie_intro{
+    padding-top: 6px;
+    height: 36px;
+    color: #989898;
+    line-height: 16px;
+}
+.movie .love_ul li .heart{
+    position: absolute;
+    top: 213px;
+    left: 0;
+    width: 27px;
+    height: 27px;
+    text-indent: -999px;
+    overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
+    background: url(../images/indexicons.png) no-repeat -284px -362px;
+}
+.movie .love_ul li:hover .heart{
+    display: block;
+}
+.movie .love_ul li .heart:hover{
+    background: url(../images/indexicons.png) no-repeat -248px -362px;
+}
+
+/* 热门推荐以及电影排行榜*/
+.max_left  .hot_list{
+    height: 508px;
+    width: 980px;
+}
+.max_left  .hot_recommend{
+    width: 800px;
+    height: 508px;
+    float: left;
+}
+.max_left .hot_title{
+    width: 210px;
+}
+.max_left .hot_title h3{
+    float: left;
+}
+.max_left .hot_title a{
+    display: block;
+    float: left;
+    margin-left: 40px;
+    color: #989898;
+    line-height: 16px;
+    font-size: 14px; 
+    margin-top: 11px;
+}
+.max_left .hot_title a:hover{
+    color: #1979c6;
+}
+.max_left  .hot_recommend .recommend{
+    width: 800px;
+    height: 445px;
+    overflow: hidden;
+}
+.hot_recommend .recommend .hot{
+    width: 800px;
+    height: 465px;
+}
+.recommend .hot li{
+    width: 180px;
+    height: 135px;
+    margin: 0 20px 20px 0;
+    float: left;
+    position: relative;
+}
+
+.recommend .hot li img{
+    width: 180px;
+    height: 135px;
+    border-radius: 2px;
+}
+.recommend .hot li span{
+    display: inline-block;
+    width: 180px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    text-indent: 8px;
+    line-height: 12px;
+    padding-top: 29px;
+    background: url(../images/textbg.png) no-repeat;
+}
+/* 电影排行榜 */
+.hot_list .movie_list{
+    width: 180px;
+    height: 508px;
+    float: left;
+}
+.hot_list .movie_list .list_title h3{
+    float: left;
+}
+.hot_list .movie_list .list_title a{
+    color: #989898;
+}
+.hot_list .movie_list .list_title a:hover{
+    color: #1a9eff;
+}
+.list{
+    width: 180px;
+    height: 445px;
+    overflow: hidden;
+}
+.list li .only{
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 19px;
+    display: block;
+}
+.list li .only_active{
+    display: none;
+}
+.list li .only span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #989898;
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 14px;
+}
+.list li .only a{
+    padding-left: 5px;
+    color: #191919;
+}
+.list li .only b{
+    font-weight: normal;
+    float: right;
+    color: #fc4413;
+}
+.list li .all{
+    width: 180px;
+    height: 135px;
+    margin-bottom: 23px;
+    position: relative;
+    display: none;
+}
+.list li .all_active{
+    display: block;
+}
+.list li .all img{
+    width: 180px;
+    height: 135px;
+}
+.list li .all .all_name{
+    height: 30px;
+    width: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5)
+}
+.list li .all .all_name a{
+    display: block;
+    font-size: 14px;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+.all .all_name a span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #1a9eff;
+    text-align: center;
+    line-height: 16px;
+}
+.all .all_name a b{
+    font-weight: normal;
+}
+/* -----右侧的评论------ */
+.max_main .max_right{
+    width: 380px;
+    margin-left: 20px;
+    height: 1496px;
+    float: left;
+    
+}
+.max_right .moive_ad{
+    width: 380px;
+    height: 126px;
+    padding-top: 30px;
+}
+.max_right .evaluate{
+    width: 380px;
+    height: 1340px;
+}
+.max_right .evaluate .pingjia{
+    width: 100%;
+}
+.evaluate .pingjia h3{
+    float: left;
+}
+.evaluate .pingjia h3 .tiao{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: left;
+    text-indent: 0px;
+}
+.evaluate .pingjia p{
+    float: right;
+    line-height: 32px;
+    color: #7f7f7f;
+    font-size: 14px;
+}
+.evaluate .pingjia p b{
+    font-weight: normal;
+    color: #1a9eff;
+}
+.evaluate .wite{
+    width: 380px;
+    height: 180px;
+}
+.evaluate .wite .witing{
+    width: 368px;
+    display: block;
+    height: 102px;
+    padding: 10px 5px;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 5px;
+    line-height: 22px;
+    resize: none;
+    color: #7d7d7d;
+    border-radius: 3px;
+    outline: none;
+}
+.evaluate .wite .div{
+    height: 30px;
+}
+.evaluate .wite .verification_code{
+    float: left;
+    height: 30px;
+    display: none;
+}
+.wite .verification_code input{
+    width: 78px;
+    height: 28px;
+    border: 1px solid #c8c8c8;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-align: center;
+    float: left;
+}
+.wite .verification_code  .code{
+    width: 70px;
+    height: 30px;
+    float: left;
+    margin: 0 5px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.wite .verification_code .trade{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #1a9eff;
+}
+.evaluate .wite .publish {
+    height: 30px;
+    float: right;
+}
+.evaluate .wite .publish span{
+    display: block;
+    width: 82px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #1a9eff;
+    font-size: 14px;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+.evaluate .wite p{
+    text-align: right;
+    color: #7d7d7d;
+}
+.evaluate .wite p a{
+    color: #1a9eff;
+}
+.evaluate .view_comments{
+    margin-top: 20px;
+    height: 34px;
+    border-bottom: 1px solid #e8e8e8;
+    
+    
+}
+.evaluate .view_comments span{
+    line-height: 34px;
+    color: #191919;
+    font-size: 14px;
+    display: block;
+    float: left;
+    width: 78px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+.evaluate .view_comments span:hover{
+    color: #1a9eff;
+    border-color: #1a9eff; 
+}
+.evaluate .view_comments span.hua{
+    color: #1a9eff;
+    border-color: #1a9eff; 
+}
+.evaluate .user_comments{
+    width: 100%;
+}
+.evaluate .user_comments li{
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid #b6b6b6;
+    color: #404040;
+
+}
+.evaluate .user_comments li .first{
+    height: 36px;
+    padding-top: 15px;
+}
+.user_comments li .first a .head_poto{
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.user_comments li .first p{
+    margin-left: 10px;
+    float: left;
+}
+.user_comments li .first p span{
+    display: block;
+}
+.user_comments li .first p span.user_name{
+    font-size: 14px;
+    color: #191919;
+    line-height: 16px;
+}
+.user_comments li .first p span.user_time{
+    font-size: 12px;
+    line-height: 14px;
+    color: #989898;
+}
+.user_comments li .srcond_row{
+    margin-top: 18px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #5e5e5e;
+    margin-bottom: 10px;
+}
+.user_comments li .third_row{
+    height: 15px;
+    width: 100%;
+    text-align: right;
+    color: #d8d8d8;
+}
+.third_row span{
+    display: inline-block;
+}
+.third_row span.zan{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    position: relative;
+    background: url(../images/playicons.png) no-repeat 0 0;
+}
+.third_row span.zan .jubao{
+    color: #191919;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    left: -60px;
+    top: 0;
+    display: none;
+}
+.third_row span.zan:hover .jubao{
+    display: block;
+}
+.third_row span.zan .jubao:hover{
+    color: #1a9eff;
+}
+
+.page{
+    margin-top: 20px;
+}
+.page .page_left{
+    float: left;
+}
+.page .ipt{
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #191919;
+    cursor: pointer;
+    outline: none;
+    border: #d8d8d8 1px solid;
+}
+.page .nowPage{
+    width: 28px;
+}
+.page .confirm{
+    width: 58px;
+    margin-left: 21px;
+}
+.page .page_right .ipt {
+    width: 58px;
+    
+}
+.page .page_right{
+    float: right;
+}
+
+/* -----最下面的广告------ */
+.bottom_ad{
+    height: 191px;
+}
+.bottom_ad .bot_ad{
+    height: 138px;
+    padding-top: 52px;
+    border-bottom: 1px solid #1a9eff;
+}
+.bottom_ad .bot_ad  img{
+    width: 941px;
+    height: 84px;
+    margin: 0 auto;
+}
+
+/* -----底部注释部分----- */
+.footer{
+    height: 177px;
+}
+.footer .footer_main{
+    height: 165px;
+    padding-top: 12px;
+}
+.footer .footer_main p{
+    line-height: 30px;
+    font-size: 14px;
+    color: #989898;
+    text-align: center;
+}
+.footer .footer_main p a{
+    color: #989898;
+    padding: 0 6px;
+}
+.footer .footer_main p a:hover{
+    text-decoration: underline;
+}

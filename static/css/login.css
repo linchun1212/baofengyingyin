@@ -1,0 +1,185 @@
+/* 
+by:林春;
+timer: 2019-06-15 8:52;
+暴风影音-登录页面
+*/
+
+.middle_mian .login{
+    width: 284px;
+    height: 406px;
+    background: #fff;
+    float: right;
+    margin-top: 53px;
+    margin-right: 40px;
+    padding: 20px 24px;
+    position: relative;
+    display: none;
+    
+}
+.login .login_title{
+    width: 90px;
+    height: 21px;
+    background: url(../images/login-pic.png) no-repeat -100px 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+/* 下面表单部位 */
+.login .tishi{
+    height: 27px;
+    line-height: 27px;
+    color: #fc4040;
+}
+.tel input{
+    padding: 0;
+    border: none;
+    line-height: 30px;
+    outline: none;
+    color: #333;
+}
+.tel{
+    width: 282px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+.ico{
+    width: 30px;
+    height: 30px;
+    background: url(../images/login-pic.png);
+    text-indent: -9999px;
+    overflow: hidden;
+    float: left;
+}
+.tel div.ico{
+    background-position: -90px -30px;
+}
+.tel input{
+    width: 200px;
+    height: 30px;
+    
+}
+.password p.ico{
+    background-position: -30px -30px; 
+}
+.argee i{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(../images/login-pic.png) no-repeat ;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.argee i.check2{
+    background-position: -20px -66px;
+}
+.argee i.check1{
+    background-position: 0px -66px;
+}
+.argee input{
+    display: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.argee a{
+    color: #1a9eff;
+}
+.argee .log{
+    color: #1a9eff;
+    float: right;
+    line-height: 14px;
+    height: 14px;
+}
+.argee .log .login-reg{
+    float: left;
+    cursor: pointer;
+}
+.btn input{
+    width: 284px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    background: #1a9eff;
+    cursor: pointer;
+    letter-spacing: 1rem;
+}
+.btn input:hover{
+    background-color: #69bfff;
+}
+.problem{
+    height: 15px;
+    line-height: 15px;
+}
+.problem a{
+    color: #999;
+}
+.problem .pro_ico{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/login-pic.png) no-repeat -165px -74px;
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+.problem span.other_log{
+    /* display: inline-block; */
+    color:#1a9eff;
+    cursor: pointer;
+    float: right;
+}
+
+.other{
+    margin-top: 118px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #999;
+    position: relative;
+}
+.other .line{
+    width: 78px;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 6px;
+}
+.other .line1{
+    left: 23px;
+    
+}
+.other .line2{
+    right: 23px;
+    
+}
+.way{
+    height: 51px;
+    padding-top: 14px;
+    text-align: center;
+}
+.way a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/login-pic.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.way .qq{
+    background-position: 0 -350px;
+}
+.way .wb{
+    background-position: -30px -350px;
+    margin: 0 20px;
+}
+.way .wx{
+    background-position: -60px -350px;
+}
+
